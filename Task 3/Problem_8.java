@@ -2,11 +2,6 @@ package sales.by.match;
 
 import java.util.HashSet;
 import java.util.Scanner;
-
-/**
- *
- * @author Halawany
- */
 public class SalesByMatch {
 
     /**
