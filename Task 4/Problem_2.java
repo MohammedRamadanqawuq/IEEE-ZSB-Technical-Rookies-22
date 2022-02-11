@@ -12,7 +12,7 @@ public class Task_4_p2 {
         int numOfRepeated = input.nextInt();
         String sum = "";
         int num_letter = 0;
-        int num_R = 0;
+        int num_First = 0;
         for(int i = 0;i<numOfRepeated;i++)
         {
          
@@ -22,13 +22,13 @@ public class Task_4_p2 {
         for(int i = 0;i<numOfRepeated;i++)
         {
          
-            if(sum.charAt(i)=='r')
+            if(sum.charAt(i)==L.charAt(0))
             {
-            num_R ++;
+            num_First ++;
             }
             
         }
-        System.out.println(num_R);
+        System.out.println(num_First);
 
     }
 
